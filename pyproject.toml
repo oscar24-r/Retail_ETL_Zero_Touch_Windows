@@ -1,0 +1,10 @@
+[project]
+name="retail-etl-zero-touch"
+version="1.0.0"
+requires-python=">=3.10"
+dependencies=["pandas>=2.0"]
+[project.optional-dependencies]
+dev=["pytest>=8.0"]
+[tool.pytest.ini_options]
+pythonpath=["."]
+testpaths=["tests"]
